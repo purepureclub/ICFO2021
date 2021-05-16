@@ -13,7 +13,7 @@ or:
 
 ```sh
 docker build . -t pure-bread-app
-docker run --rm -p 3000:80 pure-bread-app
+docker run --rm -p 3000:8080 pure-bread-app
 ```
 
 Now you can access this app on your localhost:3000.
